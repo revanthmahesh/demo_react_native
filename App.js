@@ -11,7 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
-import MyApp from './src/components/myapp'
+import MyApp from './src/airbnb/myapp'
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
