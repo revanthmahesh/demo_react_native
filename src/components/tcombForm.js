@@ -8,7 +8,6 @@ const User = t.struct({
     password: t.String,
     age: t.Number,
     terms: t.Boolean,
-    birthDate: t.Date 
 })
 const options ={
     fields:{

@@ -5,6 +5,7 @@ import  Contacts from "./contacts";
 import RegForm from './tcombForm';
 import Switcher from "./switch";
 import  Select  from "./select";
+import Form from "./selfForm";
 const count = new Array(20)
 export default class MyApp extends Component{
     constructor(){
@@ -20,9 +21,10 @@ export default class MyApp extends Component{
       }
         return(
             <View>
-              <RegForm />
-              <Switcher/>
-              <Select/>
+                <Form/>
+              {/* <RegForm /> */}
+              {/* <Switcher/>
+              <Select/> */}
            </View>
         )
     }
